@@ -1,4 +1,4 @@
-/*
+package Array;/*
 
 Q. Given a vector A of non-negative integers representing an elevation map where
 the width of each bar is 1, compute how much water it is able to trap after raining.
@@ -18,7 +18,7 @@ Explanation 1:
 
 */
 
-public class Solution {
+public class Rain_Water_Trapped {
     // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
     public int trap(final int[] A) {
         int n= A.length;

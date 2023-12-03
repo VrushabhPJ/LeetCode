@@ -1,18 +1,24 @@
-/*
+package Hashmap;/*
 
 Given an unsorted integer array A of size N.
 Find the length of the longest set of consecutive elements from array A.
 
 Input Format :-
 First argument is an integer array A of size N.
+A = [100, 4, 200, 1, 3, 2]
 
 Output Format :-
 Return an integer denoting the length of the
 longest set of consecutive elements from the array A.
 
+Output : 4
+
+
 */
 
-public class Solution {
+import java.util.HashSet;
+
+public class longest_consecutive_sequence {
     // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
     public int longestConsecutive(final int[] A) {
         int N= A.length;

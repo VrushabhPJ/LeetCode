@@ -1,4 +1,4 @@
-/* Reverse Link List II
+package Linked_List;/* Reverse Link List II
  Reverse a linked list A from position B to C.
 
 NOTE: Do it in-place and in one-pass.
@@ -13,8 +13,12 @@ NOTE: Do it in-place and in one-pass.
  *     ListNode(int x) { val = x; next = null; }
  * }
  */
-
-public class Solution {
+class ListNode {
+      public int val;
+      public ListNode next;
+      ListNode(int x) { val = x; next = null; }
+ }
+public class ReverseLinkedList {
     public ListNode reverseBetween(ListNode A, int B, int C) {
         if(A.next == null || (B == C)) return A;  //if A next null or B & C are same
 

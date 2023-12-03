@@ -9,7 +9,7 @@ subarray within an array A of length N.
 
  */
 
-public class Solution {
+public class Kadene {
     // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
     public int maxSubArray(final int[] A) {
         int N= A.length;

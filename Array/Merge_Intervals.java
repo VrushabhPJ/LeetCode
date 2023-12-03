@@ -1,4 +1,4 @@
-/*  Merge Intervals
+package Array;/*  Merge Intervals
 Problem Description
 
 You have a set of non-overlapping intervals. You are given a new interval [start, end],
@@ -28,6 +28,8 @@ Explanation 1:
 
 */
 
+import java.util.ArrayList;
+
 /**
  * Definition for an interval.
  * public class Interval {
@@ -38,12 +40,12 @@ Explanation 1:
  * }
  */
 
-
+/*
 public class Merge_Intervals {
     public ArrayList<Interval> insert(ArrayList<Interval> intervals, Interval newInterval) {
         int n= intervals.size();
 
-        ArrayList<Interval> ans= new ArrayList<>();
+        ArrayList<Interval> ans= new ArrayList<Interval>();
 
         for(int i= 0; i< n; i++)
         {
@@ -69,3 +71,4 @@ public class Merge_Intervals {
         return ans;
     }
 }
+*/

@@ -1,4 +1,4 @@
-/* Valid Binary Search Tree
+package Tree;/* Valid Binary Search Tree
 
 You are given a binary tree represented by root A. You need to check if it is a Binary Search Tree or not.
 
@@ -24,9 +24,10 @@ Assume a BST is defined as follows:
  *     }
  * }
  */
+
 // left subtree root max value <= root value < right subtree root min value
 //left tree from min_value -> root.val , right tree from root.val +1 -> max-value
-public class Solution {
+/*public class Solution {
     public int isValidBST(TreeNode A) {
         return valid(A, Long.MIN_VALUE, Long.MAX_VALUE) == true ?1:0;
     }
@@ -42,3 +43,4 @@ public class Solution {
         return (isLeft && isRight);
     }
 }
+*/
